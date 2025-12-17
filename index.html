@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ITAICS2025クラスのゲーム制作プロジェクト一覧">
+    <meta name="theme-color" content="#00a8ff">
+    <title>ITAICS2025クラスWebサイトまとめ</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">ITAICS2025</div>
+            <button class="hamburger" id="hamburger-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#top">ホーム</a></li>
+                    <li><a href="https://kazuki-kittaka.github.io/ITAICS2025.ivy.github.io/">前作品一覧</a></li>
+                    <li><a href="#">GMクラス</a></li>
+                    <li><a href="https://forms.gle/TH9czy2kZ9NB4tqS9">ITAICS投票</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="top">
+        <section class="hero-section">
+            <h1>ITAICS2025クラス<br>
+                <span class="txt-rotate" data-period="2000" data-rotate='["Webサイトまとめ", "JavaScript"]'></span>
+            </h1>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <a href="https://forms.gle/TH9czy2kZ9NB4tqS9" class="vote-button">サイト投票</a>
+            <h2 class="section-title">▼制作作品一覧▼</h2>
+            <div class="pagination">
+                <button class="page-button active" data-page="1" onclick="showPage(1)">1</button>
+                <button class="page-button" data-page="2" onclick="showPage(2)">2</button>
+            </div>
+            <!-- ページ1: No.1 - No.11 -->
+            <div class="page active" id="page-1">
+                <div class="grid-container">
+                    <!-- No.1 -->
+                    <div class="grid-item">
+                        <div class="image-placeholder">
+                            <img src="img/shindan-thumbnail.png" width="280px" height="auto" alt="守護仏（守り本尊）診断">
+                        </div>
+                        <p>【No.1】守護仏（守り本尊）診断</p>
+                        <a href="https://miwakogoto.github.io/syugobutsu-shindan.ivy.github.io/index.html" class="link-button">リンクはこちら</a>
+                    </div>
+
+                    <!-- No.2 -->
+                    <div class="grid-item">
+                        <div class="image-placeholder">
+                            <img src="img/omikuji_samune.png" width="280px" height="auto" alt="おみくじ">
+                        </div>
+                        <p>【No.2】おみくじ</p>
+                        <a href="https://tsusue.github.io/omikuji.ivy.github.io/" class="link-button">リンクはこちら</a>
+                    </div>
+
+                    <!-- No.3 -->
+                    <div class="grid-item">
+                        <div class="image-placeholder">
+                            <img src="img/tenkiyohou.png" width="280px" height="auto" alt="天気予報サイト">
+                        </div>
+                        <p>【No.3】天気予報サイト</p>
+                        <a href="https://kanak0abe.github.io/tenki.ivy.github.io/" class="link-button">リンクはこちら</a>
+                    </div>
+
+                    <!-- No.4 -->
+                    <div class="grid-item">
+                        <div class="image-placeholder">
+                            <img src="img/overwhatch.png" width="280px" height="auto" alt="ブラックジャック">
+                        </div>
+                        <p>【No.4】オーバーウォッチアンチピック検索</p>
+                        <a href="https://takata321.github.io/owantipick.ivy.github.io/" class="link-button">リンクはこちら</a>
+                    </div>
+
+                    <!-- No.5 -->
+                    <div class="grid-item">
+                        <div class="image-placeholder">
+                            <img src="img/valorant.png" width="280px" height="auto" alt="VALORANT紹介">
+                        </div>
+                        <p>【No.5】VALORANT紹介</p>
+                        <a href="https://rui-ivy.github.io/rui.ivy.githnb.io/" class="link-button">リンクはこちら</a>
+                    </div>
+
+                    <!-- No.6 -->
+                    <div class="grid-item">
+                        <div class="image-placeholder">
+                            <img src="img/blocklkuzushi.png" width="280px" height="auto" alt="Breakout-Deluxe">
+                        </div>
+                        <p>【No.6】Breakout-Deluxe</p>
+                        <a href="https://rinakido.github.io/Breakout-Deluxe/" class="link-button">リンクはこちら</a>
+                    </div>
+
+                    <!-- No.7 -->
+                    <div class="grid-item">
+                        <div class="image-placeholder">
+                            <img src="img/yokege.png" width="280px" height="auto" alt="避けゲー">
+                        </div>
+                        <p>【No.7】避けゲー</p>
+                        <a href="https://ito-daiki-ivy.github.io/Game/" class="link-button">リンクはこちら</a>
+                    </div>
+
+                    <!-- No.8 -->
+                    <div class="grid-item">
+                        <div class="image-placeholder">
+                            <img src="img/zenzero.png" width="280px" height="auto" alt="ゼンレスゾーンゼロ紹介カード">
+                        </div>
+                        <p>【No.8】ゼンレスゾーンゼロ紹介カード</p>
+                        <a href="https://taka20070125.github.io/game.zenzero.ivy.github.io/" class="link-button">リンクはこちら</a>
+                    </div>
+
+                    <!-- No.9 -->
+                    <div class="grid-item">
+                        <div class="image-placeholder">
+                            <img src="img/koniwa.png" width="280px" height="auto" alt="Koniwa">
+                        </div>
+                        <p>【No.9】Koniwa</p>
+                        <a href="https://cawaguchi.github.io/koniwa/" class="link-button">リンクはこちら</a>
+                    </div>
+
+                    <!-- No.10 -->
+                    <div class="grid-item">
+                        <div class="image-placeholder">
+                            <img src="img/Snow_Man.png" width="280px" height="auto" alt="Street Fighter 6">
+                        </div>
+                        <p>【No.10】snowman</p>
+                        <a href="https://renn-23423.github.io/street6.ivy.github.io/" class="link-button">リンクはこちら</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ページ2: No.12 - No.15 -->
+            <div class="page" id="page-2">
+                <div class="grid-container">
+                    <!-- No.11 -->
+                    <div class="grid-item">
+                        <div class="image-placeholder">
+                            <img src="img/sauna.png" width="280px" height="auto" alt="ユニバーサル・スタジオ・ジャパン">
+                        </div>
+                        <p>【No.11】サウナ紹介</p>
+                        <a href="https://odamakikaito.github.io/saunasyoukai1.ivy.github.io/" class="link-button">リンクはこちら</a>
+                    </div>
+                     <!-- No.12 -->
+                    <div class="grid-item">
+                        <div class="image-placeholder">
+                            <img src="img/shareclip.png" width="280px" height="auto" alt="ShareClip">
+                        </div>
+                        <p>【No.12】ShareClip</p>
+                        <a href="https://mimata3.github.io/shareclip.ivy.github.io/" class="link-button">リンクはこちら</a>
+                    </div>
+                    <!-- No.13 -->
+                    <div class="grid-item">
+                        <div class="image-placeholder">
+                            <img src="img/cbts.png" width="280px" height="auto" alt="迫門道場　基本情報技術者試験科目B　模擬CBTモックアップ">
+                        </div>
+                        <p>【No.13】迫門道場<br>基本情報技術者試験科目B<br>模擬CBTモックアップ</p>
+                        <a href="https://c259004.github.io/cbtmockup.ivy.github.io/" class="link-button">リンクはこちら</a>
+                    </div>
+
+                    <!-- No.14 -->
+                    <div class="grid-item">
+                        <div class="image-placeholder">
+                            <img src="img/game.png" width="280px" height="auto" alt="ゲーム">
+                        </div>
+                        <p>【No.14】ゲーム</p>
+                        <a href="https://yosimatu1151.github.io/game/" class="link-button">リンクはこちら</a>
+                    </div>
+
+                    <!-- No.15 -->
+                    <div class="grid-item">
+                        <div class="image-placeholder">
+                            <img src="img/sukinamonosyoukai.png" width="280px" height="auto" alt="好きなもの紹介サイト">
+                        </div>
+                        <p>【No.15】好きなもの紹介サイト</p>
+                        <a href="https://asazawap.github.io/Like_/" class="link-button">リンクはこちら</a>
+                    </div>
+                    <!-- No.16 -->
+                    <div class="grid-item">
+                        <div class="image-placeholder">
+                            <img src="img/aikido.png" width="280px" height="auto" alt="合気道診断とミニゲーム">
+                        </div>
+                        <p>【No.16】合気道診断とミニゲーム</p>
+                        <a href="https://lara-kaku.github.io/let-s-get-start-aikidou/" class="link-button">リンクはこちら</a>
+                    </div>
+                    <!-- No.17 -->
+                    <div class="grid-item">
+                        <div class="image-placeholder">
+                            <img src="img/syogi.png" width="280px" height="auto" alt="将棋ゲーム">
+                        </div>
+                        <p>【No.17】将棋ゲーム</p>
+                        <a href="https://kazushige1.github.io/shougi.ivy.github.io/" class="link-button">リンクはこちら</a>
+                    </div>
+                    <!-- No.18 -->
+                    <div class="grid-item">
+                        <div class="image-placeholder">
+                            <img src="img/gakuenidol.png" width="280px" height="auto" alt="『学園アイドルマスター』ファンサイト">
+                        </div>
+                        <p>【No.18】『学園アイドルマスター』ファンサイト</p>
+                        <a href="https://kato-risa.github.io/gakumasufansite.kr/" class="link-button">リンクはこちら</a>
+                    </div>
+                    <!-- No.19 -->
+                    <div class="grid-item">
+                        <div class="image-placeholder">
+                            <img src="img/sannmyaku.png" width="280px" height="auto" alt="">
+                        </div>
+                        <p>【No.19】</p>
+                        <a href="" class="link-button">リンクはこちら</a>
+                    </div>
+                    <!-- No.20 -->
+                    <div class="grid-item">
+                        <div class="image-placeholder">
+                            <img src="img/sannmyaku.png" width="280px" height="auto" alt="">
+                        </div>
+                        <p>【No.20】</p>
+                        <a href="" class="link-button">リンクはこちら</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ページネーション -->
+            <div class="pagination">
+                <button class="page-button active" data-page="1" onclick="showPage(1)">1</button>
+                <button class="page-button" data-page="2" onclick="showPage(2)">2</button>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <button onclick="scrollToTop()" class="top-button">↑ ページ最上部へ</button>
+        <p>
+            © 2025 IVY Advanced Computer Vocational School. All rights reserved.<br>
+            ※上記のサイトは学校のWeb制作課題として作成されたものです。 ※学校のWeb制作課題として作成されたものです。<br>
+このサイトは一般公開されていません。課題の評価目的でのみ利用されます。
+        </p>
+    </footer>
+
+    <script src="js/index.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.textillate.js"></script>
+</body>
+</html>
